@@ -1,13 +1,16 @@
+/* Defines the baseline box-sizing, padding, and margins for each element */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Sets the background color of the page to an off-white */
 body {
     background-color: #d9dcd6;
 }
 
+/* Specifies the padding, font, background color and text color of the header */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +18,18 @@ body {
     color: #ffffff;
 }
 
+/* Specifies the display method and font size for all h1 elements in the header */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* Changes the "seo" in "Horiseon" to a different color to emphasize that it stands for "search engine optimization" */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/* Adjusts the positioning, font, and font size for the hyperlinks in the header */
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,24 +38,24 @@ body {
     font-size: 20px;
 }
 
+/*Specifies that the list-style-type for the unordered list in the header is set to "none" */
 .header div ul {
     list-style-type: none;
 }
 
+/*Specifies the display and margins for each list item in the header */
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* Specifies the color and text-decoration of the hyperlinks in the header */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
-p {
-    font-size: 16px;
-}
-
+/* Adding in an image of a digital marketing meeting */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,22 +65,52 @@ p {
     background-position: center;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
+/* Specifications for the primary content blocks on the page */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Specifications for each division of content on the page*/
+.content div {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Specifies maximum height of the images located in each division of content */
+.content div img {
+    max-height: 200px;
+}
+
+/* Specifies that the image in each respective content division will float to the left of its container */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/* Specifies that the image in each respective content division will float to the right of its container */
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* Specifies the bottom margins and font size for each h2 element in each division of content */
+.content div h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/*Specifies the font size of the paragraph text for the entire page */
+p {
+    font-size: 16px;
+}
+
+/* Specifications for the "benefits" section located on the bottom right of the page */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,108 +122,26 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+/* Specifications for each division of the "benefits" section */
+.benefits div {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+/* Specifications for each heading 3 in the "benefits" section */
+.benefits h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
+/* Specifications for each image in the "benefits" section */
+.benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/*Specifications for the footer of the page*/
 .footer {
     padding: 30px;
     clear: both;
@@ -195,6 +149,7 @@ p {
     text-align: center;
 }
 
+/*Specifications for each heading 2 in the footer of the page */
 .footer h2 {
     font-size: 20px;
 }
