@@ -10,4 +10,4 @@ The purpose of this project was to refactor the existing codebase for Horiseon's
 
 ## Preview
 
-![The Horiseon webpage includes a navigation bar, a header image, and cards with text and images at the bottom of the page.](./Assets//images/site-preview.png)
+![The Horiseon webpage includes a navigation bar, a header image, and cards with text and images at the bottom of the page.](https://github.com/ottobisno/horiseon-code-refactor/blob/main/assets/images/site-preview.png?raw=true)
